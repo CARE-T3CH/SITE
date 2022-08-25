@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Kalam&display=swap');
+
+.corpo {
+    background-color: #ffffff;
+}
+
+.cabecalho {
+    background-color: #ff9a60cb;
+    height: 87px;
+}
+
+.container-topo {
+    height: 87px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px 75px;
+}
+
+.esquerda-topo {
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+.logo {
+    width: 61px;
+}
+
+.name-logo {
+    width: 200px;
+}
+
+.item {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 8px;
+    margin-left: 50px;
+    color: black;
+}
+
+.item:hover {
+    background-color: black;
+    border-radius: 5px;
+    padding: 8px;
+    transition: 450ms;
+    color: #ff9a60cb;
+}
+
+.main1 {
+    height: 462px;
+}
+
+.container-main1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.bemvindop {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    width: 325px;
+    color: white;
+
+    position: absolute;
+    left: 478px;
+    top: 223px;
+}
+
+.caretechp {
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+    font-size: 81px;
+    width: 419px;
+    color: white;
+
+    position: absolute;
+    left: 575px;
+    top: 288px;
+}
