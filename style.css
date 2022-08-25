@@ -5,7 +5,7 @@
 }
 
 .cabecalho {
-    background-color: #ff9a60cb;
+    background-color: #FA990A;
     height: 87px;
 }
 
@@ -22,6 +22,11 @@
     display: flex;
     align-items: center;
     gap: 0px 20px;
+    transition: all 450ms;
+}
+
+.esquerda-topo:hover {
+    transform: scale(1.05);
 }
 
 .logo {
@@ -39,14 +44,14 @@
     padding: 8px;
     margin-left: 50px;
     color: black;
+    transition: all 450ms;
 }
 
 .item:hover {
     background-color: black;
     border-radius: 5px;
     padding: 8px;
-    transition: 450ms;
-    color: #ff9a60cb;
+    color: #FA990A;
 }
 
 .main1 {
@@ -68,7 +73,7 @@
     font-weight: 400;
     font-size: 54px;
     width: 325px;
-    color: white;
+    color: #0367AD;
 
     position: absolute;
     left: 478px;
@@ -80,7 +85,7 @@
     font-weight: 700;
     font-size: 81px;
     width: 419px;
-    color: white;
+    color: #0367AD;
 
     position: absolute;
     left: 575px;
