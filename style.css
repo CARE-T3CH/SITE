@@ -2,6 +2,7 @@
 
 .corpo {
     background-color: #ffffff;
+    min-width: min-content;
 }
 
 .cabecalho {
@@ -55,17 +56,27 @@
 }
 
 .main1 {
-    height: 462px;
+    height: 100vh;
+    width: auto;
 }
 
 .container-main1 {
-    position: absolute;
+    height: 75%;
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: center;
-    flex-wrap: wrap;
-    align-self: center;
+    border-bottom: 1px solid black;
+}
+
+.bemvindo {
+    position: relative;
+    left: 100px;
+}
+
+.caretech {
+    position: relative;
+    right: 100px;
+    top: 45px;
 }
 
 .bemvindop {
@@ -74,10 +85,6 @@
     font-size: 54px;
     width: 325px;
     color: #0367AD;
-
-    position: absolute;
-    left: 478px;
-    top: 223px;
 }
 
 .caretechp {
@@ -86,8 +93,9 @@
     font-size: 81px;
     width: 419px;
     color: #0367AD;
+}
 
-    position: absolute;
-    left: 575px;
-    top: 288px;
+.main2 {
+    border-top: 1px solid black;
+    height: 100vh;
 }
