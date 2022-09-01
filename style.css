@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Kalam&display=swap');
 
 .corpo {
-    background-color: #ffffff;
+    background-image: url(PNG/hero-bg-orange.png);
     min-width: min-content;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .cabecalho {
@@ -48,6 +50,10 @@
     transition: all 450ms;
 }
 
+#inicio {
+    color: #0367ad;
+}
+
 .item:hover {
     background-color: black;
     border-radius: 5px;
@@ -61,7 +67,7 @@
 }
 
 .container-main1 {
-    height: 75%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
